@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Om Sabha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        saffron: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#ea580c',
+                            600: '#c2410c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Area -->
+                <a href="/" class="flex items-center space-x-3">
+                     <!-- <div class="w-16 h-16 bg-saffron-50 rounded-full flex items-center justify-center border-2 border-saffron-100">
+                            <span class="text-3xl text-saffron-600 font-bold">ॐ</span>
+                        </div> -->
+                        <div class="w-18 h-16">
+                            <img src="./assets/images/icons/om-logo-58-64.jpg" alt="Om Sabha Mission Logo" class="w-full h-full object-contain rounded-full border-2 border-saffron-100">
+                        </div>
+                    <div class="flex flex-col">
+                        <span class="font-cinzel text-xl text-gray-900">Om Sabha Mission</span>
+                        <span class="text-xs text-gray-600">Transforming Lives Through Spiritual Awakening</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="/" class="text-gray-900 hover:text-saffron-500 transition">Home</a>
+                    <a href="/about.html" class="text-gray-900 hover:text-saffron-500 transition">About</a>
+                    <a href="/mission.html" class="text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                    <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                    <a href="/gallery.html" class="text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                    <a href="/contact.html" class="text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                    <!-- <button class="bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button> -->
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="lg:hidden text-gray-900">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-1">
+                <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Home</a>
+                <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">About</a>
+                <a href="./mission.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                <a href="/gallery.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                <a href="/contact.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                <button class="w-full mt-2 bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="relative bg-gradient-to-b from-saffron-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 py-16 md:py-24">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-cinzel font-semibold text-gray-900 mb-4">Contact Us</h1>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600">
+                    We welcome all seekers, devotees, and well-wishers to connect with us for spiritual guidance, participation in our initiatives, or any inquiries about our mission.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content Section -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Contact Information -->
+            <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-saffron-50 p-6">
+                        <h2 class="text-2xl font-cinzel font-semibold text-gray-900">Connect With Us</h2>
+                    </div>
+                    <div class="p-6 space-y-6">
+                        <!-- Location -->
+                        <div class="flex space-x-4">
+                            <div class="text-saffron-500 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Location</h3>
+                                <p class="text-gray-600">Om Mandir, Phulia</p>
+                                <p class="text-gray-600">6F6J+P24, Chatkatala, Phulia, Pumlia, West Bengal 741402</p>
+                                <p class="text-gray-600 italic mt-1">Our temple is a center for spiritual upliftment, service, and cultural preservation.</p>
+                                <a href="https://maps.app.goo.gl/MYyJdZ5D8PQwbD8u9" class="inline-flex items-center text-saffron-500 mt-2 hover:underline">
+                                    View on Google Maps
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="flex space-x-4">
+                            <div class="text-saffron-500 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Phone</h3>
+                                <p class="text-gray-600">9064485507</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="flex space-x-4">
+                            <div class="text-saffron-500 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Email</h3>
+                                <a href="mailto:omsabhamission@gmail.com" class="text-gray-600 hover:text-saffron-500">omsabhamission@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Website -->
+                        <div class="flex space-x-4">
+                            <div class="text-saffron-500 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900">Website</h3>
+                                <a href="http://www.omsabhamission.org" class="text-gray-600 hover:text-saffron-500">www.omsabhamission.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Visit Us Card -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-saffron-50 p-6">
+                        <h2 class="text-2xl font-cinzel font-semibold text-gray-900">Visit Us</h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">
+                            We invite you to visit Om Mandir, experience the divine energy of our rituals, and participate in our <span class="font-medium">yoga sessions, meditation retreats, Annadanam, and festival celebrations</span>. Whether you seek spiritual wisdom, service opportunities, or simply wish to immerse yourself in the vibrations of Om, our doors are always open.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="bg-saffron-50 p-6">
+                        <h2 class="text-2xl font-cinzel font-semibold text-gray-900">Stay Connected</h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">
+                            Follow us on social media for updates on events, spiritual discourses, and community initiatives.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-gray-100 hover:bg-saffron-50 transition p-3 rounded-full text-gray-700 hover:text-saffron-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-gray-100 hover:bg-saffron-50 transition p-3 rounded-full text-gray-700 hover:text-saffron-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-gray-100 hover:bg-saffron-50 transition p-3 rounded-full text-gray-700 hover:text-saffron-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-saffron-50 p-6">
+                    <h2 class="text-2xl font-cinzel font-semibold text-gray-900">Send Us a Message</h2>
+                </div>
+                <div class="p-6">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="first_name" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                                <input type="text" id="first_name" name="first_name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500">
+                            </div>
+                            <div>
+                                <label for="last_name" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                            <select id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500">
+                                <option value="general">General Inquiry</option>
+                                <option value="spiritual">Spiritual Guidance</option>
+                                <option value="volunteering">Volunteering Opportunities</option>
+                                <option value="donation">Donations & Support</option>
+                                <option value="event">Event Information</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-saffron-500 focus:border-saffron-500"></textarea>
+                        </div>
+                        
+                        <div>
+                            <button type="submit" class="w-full py-3 px-6 bg-saffron-500 text-white font-medium rounded-md hover:bg-saffron-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-saffron-500 transition">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Closing message -->
+        <div class="mt-16 text-center">
+            <p class="text-xl font-cinzel text-gray-700">🙏 Om Sabha – A Journey Towards Universal Oneness and Self-Realization</p>
+        </div>
+        
+        <!-- Map -->
+        <div class="mt-12 bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="aspect-w-16 aspect-h-9 h-96">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14621.772582151798!2d88.50282065!3d23.651957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9612f244e97a9%3A0x8fa1c74f04d1a1fd!2sPhulia%2C%20West%20Bengal%20741402!5e0!3m2!1sen!2sin!4v1709056000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </main>
+    
+    
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-18 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                            <img src="./assets/images/icons/om-logo-58-64.jpg" alt="Om Sabha Mission Logo" class="w-full h-full object-contain rounded-full border-2 border-saffron-100">
+                            <!-- <span class="text-2xl text-white">ॐ</span> -->
+                        </div>
+                        <span class="font-cinzel text-xl">Om Sabha Mission</span>
+                    </div>
+                    <p class="text-gray-400">Transforming Lives Through Spiritual Awakening</p>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="/about.html" class="block text-gray-400 hover:text-white transition">About Us</a>
+                        <a href="/programs.html" class="block text-gray-400 hover:text-white transition">Activities & Initiatives</a>
+                        <a href="/gallery.html" class="block text-gray-400 hover:text-white transition">Gallery</a>
+                        <a href="/contact.html" class="block text-gray-400 hover:text-white transition">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Connect</h4>
+                    <div class="space-y-2">
+                        <a href="https://www.facebook.com/share/1EuYYcxXXM/" class="block text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="https://youtube.com/@omsabha?si=8eoyDcj_ROYIv6vl" class="block text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Visit Us</h4>
+                    <address class="text-gray-400 not-italic">
+                        Om Mandir<br>
+                        Banks of Ganga<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <p class="text-center text-gray-400">© 2025 Om Sabha Mission. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
