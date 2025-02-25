@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities & Initiatives | Om Sabha</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .activity-card {
+            margin-bottom: 20px;
+        }
+    </style>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    cinzel: ['Cinzel', 'serif'],
+                    sans: ['Poppins', 'sans-serif'],
+                },
+                colors: {
+                    saffron: {
+                        50: '#fff7ed',
+                        100: '#ffedd5',
+                        500: '#ea580c',
+                        600: '#c2410c',
+                    }
+                }
+            }
+        }
+    }
+</script>
+</head>
+<body>
+    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Area -->
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-16 h-16 bg-saffron-50 rounded-full flex items-center justify-center border-2 border-saffron-100">
+                        <span class="text-3xl text-saffron-600 font-bold">ॐ</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-cinzel text-xl text-gray-900">Om Sabha Mission</span>
+                        <span class="text-xs text-gray-600">Transforming Lives Through Spiritual Awakening</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="/" class="text-gray-900 hover:text-saffron-500 transition">Home</a>
+                    <a href="/about.html" class="text-gray-900 hover:text-saffron-500 transition">About</a>
+                    <a href="/mission.html" class="text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                    <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                    <a href="/gallery.html" class="text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                    <a href="/contact.html" class="text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                    <!-- <button class="bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button> -->
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="lg:hidden text-gray-900">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-1">
+                <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Home</a>
+                <a href="./about.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">About</a>
+                <a href="./mission.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                <a href="/programs.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Programs</a>
+                <a href="/gallery.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                <a href="/contact.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                <button class="w-full mt-2 bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-10">
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">Activities & Initiatives: Manifesting Our Vision into Action</h2>
+            <p class="mt-4 text-lg text-gray-600">Om Sabha is dedicated to translating our spiritual vision into meaningful service and community upliftment. Rooted in the principles of universal oneness, divine harmony, and selfless service, our initiatives reflect the essence of Sanatan Dharma—where spirituality is lived through compassion, knowledge, and action.</p>
+        
+            <div class="mt-10">
+                <h3 class="text-2xl font-semibold text-gray-700">Observance of Hindu Festivals (New Addition)</h3>
+                <p class="mt-4 text-gray-600">We actively organize and celebrate major Hindu festivals such as Durga Puja, Mahashivratri, Janmashtami, Ram Navami, and Navaratri, creating a sacred environment for community worship and devotion. These celebrations are not just rituals but a revival of Vedic traditions, bringing people together to experience the divine through bhajans, kirtans, yajnas, scriptural discourses, and devotional activities.</p>
+                <p class="mt-4 text-gray-600">By hosting these festivals, we provide a space for spiritual rejuvenation, where devotees can strengthen their faith, immerse in sacred vibrations, and pass on the rich heritage of Sanatana Dharma to future generations.</p>
+            </div>
+        
+            <div class="mt-10">
+                <h3 class="text-2xl font-semibold text-gray-700">Guided Deity Meditation & Worship Retreats (New Addition)</h3>
+                <p class="mt-4 text-gray-600">To help individuals cultivate a deeper bond with their chosen deity, we organize Ishta Dharana & Bhakti Dhyana Retreats. This sacred practice involves focused meditation and structured worship to strengthen one’s connection with the divine.</p>
+                
+                <div class="mt-6">
+                    <h4 class="text-xl font-semibold text-gray-700">How It Works</h4>
+                    <ul class="list-disc list-inside mt-2 text-gray-600">
+                        <li>These retreats are led by experienced teachers who guide participants in the art of deity worship, devotion, and spiritual discipline.</li>
+                        <li>Participants learn practical techniques to develop a deeper spiritual connection and enhance their inner devotion.</li>
+                        <li>The practice helps individuals cultivate inner stillness, focus, and divine love.</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="mt-10">
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">1. Annadanam: Feeding the Divine in Humanity</h3>
+                    <p class="mt-4 text-gray-600">Inspired by the teaching, "When you feed the hungry, you feed Narayana Himself," we view Annadanam (sacred food donation) as an offering to the Divine present in all beings. Our mission is to establish daily prasadam distribution, ensuring that pilgrims, tribal communities, and the destitute receive nourishing meals. Special Annadanam drives are conducted during festivals like Mahashivaratri,Navratri,Purnimas and other sacred occasions reinforcing the sacred dialogue between giver, receiver, and the Divine.</p>
+                </div>
+        
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">2. Gau Seva: Honoring the Sacred Cow</h3>
+                    <p class="mt-4 text-gray-600">Recognizing the cow as a symbol of selfless nourishment and sustainability, we are committed to establishing Gaushalas to shelter and protect abandoned cows. Our initiative integrates organic farming, cow-based products, and Vedic agricultural practices, fostering a harmonious relationship between humanity and nature. Through advocacy and sustainable initiatives, we aim to revive the spiritual and ecological significance of the cow, ensuring that Dharma and sustainability go hand in hand.</p>
+                </div>
+
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">3. Education: Gurukuls for the Modern Age  </h3>
+                    <p class="mt-4 text-gray-600">To preserve and transmit Sanatan wisdom alongside modern knowledge, we aim to establish Gurukuls where children from tribal and rural communities can learn Sanskrit chants, Vedic scriptures, and spiritual disciplines alongside contemporary academic education. These Gurukuls will serve as centers of holistic learning, nurturing minds that are both rooted in tradition and prepared for the future.
+                        Sri Divyananda’s Insight: “Education should light the lamp of wisdom, not just fill the mind with facts.”
+                        </p>
+                </div>
+
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">4. Integrative Healthcare: Healing Body and Soul</h3>
+                    <p class="mt-4 text-gray-600">Health is central to spiritual well-being. Following the ancient wisdom, "आरोग्यं परमं भाग्यम्" (Health is the greatest wealth), our vision is to establish Ayurvedic clinics and wellness centers that integrate traditional healing methods with modern diagnostics. We plan to offer free medical camps, Panchakarma therapies, and Bhakti Yoga sessions, providing holistic healing to underserved communities.</p>
+                </div>
+
+
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">5. Environmental Dharma: Protecting the Sacred Earth</h3>
+                    <p class="mt-4 text-gray-600">Sanatan Dharma reveres nature as Divine, and we are committed to environmental preservation through initiatives such as:
+                        ●	Cleaning and revitalizing the sacred banks of Maa Ganga and other holy rivers, conducted as a volunteer-driven Shramdaan movement.
+                        ●	Organizing Ganga Aarti ceremonies, rekindling reverence for her sacred, purifying presence.
+                        ●	Restoring Tapovan forests, creating meditative retreat spaces where seekers can reconnect with nature and the Divine.
+                        </p>
+                </div>
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">6. Dissemination of Spiritual Knowledge</h3>
+                    <p class="mt-4 text-gray-600">Om Sabha is committed to spreading the timeless wisdom of the Vedas, Puranas, Tantras, and epics through lectures, discussions, and seminars. Our goal is to make sacred knowledge accessible to all seekers, bridging ancient teachings with contemporary understanding.
+                        Sri Divyananda notes: "Knowledge unshared is a lamp unlit; in passing the flame, we illuminate the path for all seekers."
+                        .</p>
+                </div>
+
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">7.  Publishing Sacred Literature</h3>
+                    <p class="mt-4 text-gray-600">To ensure that Sanatan Dharma’s wisdom is preserved and shared, we actively work on publishing books, research papers, and magazines. By making spiritual teachings accessible to modern generations, we strive to revive, protect, and celebrate the vast literary heritage of Hindu Dharma.</p>
+                </div>
+
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">8. Preserving India's Cultural Heritage</h3>
+                    <p class="mt-4 text-gray-600">Sanatan Dharma is woven into India’s rich artistic traditions. We are dedicated to the enrichment and preservation of classical music, regional dance, folk traditions, and sacred arts, ensuring that India’s spiritual and cultural legacy thrives for future generations.</p>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-2xl font-semibold text-gray-700">9. Conservation of Manuscripts & Artifacts</h3>
+                    <p class="mt-4 text-gray-600">Our mission includes the collection and preservation of ancient manuscripts, paintings, sculptures, and historical artifacts. By safeguarding the intellectual and artistic treasures of Sanatan Dharma, we ensure that the legacy of spiritual wisdom and sacred art continues to inspire generations.</p>
+                </div>
+            </div>
+        
+            <p class="mt-10 text-gray-600 italic">These initiatives are in their early stages, and with the grace of Divine and collective dedication, we seek to bring them to life. By harmonizing spiritual wisdom with practical action, we envision a world where universal oneness, divine harmony, and compassionate service create a society that is both spiritually awakened and socially empowered.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                            <span class="text-2xl text-white">ॐ</span>
+                        </div>
+                        <span class="font-cinzel text-xl">Om Sabha Mission</span>
+                    </div>
+                    <p class="text-gray-400">Transforming Lives Through Spiritual Awakening</p>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="/about.html" class="block text-gray-400 hover:text-white transition">About Us</a>
+                        <a href="/programs.html" class="block text-gray-400 hover:text-white transition">Programs</a>
+                        <a href="/gallery.html" class="block text-gray-400 hover:text-white transition">Gallery</a>
+                        <a href="/contact.html" class="block text-gray-400 hover:text-white transition">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Connect</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Visit Us</h4>
+                    <address class="text-gray-400 not-italic">
+                        Om Mandir<br>
+                        Banks of Ganga<br>
+                        <!-- Add complete address -->
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <p class="text-center text-gray-400">© 2024 Om Sabha Mission. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

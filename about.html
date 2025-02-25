@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        saffron: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#ea580c',
+                            600: '#c2410c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Area -->
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-16 h-16 bg-saffron-50 rounded-full flex items-center justify-center border-2 border-saffron-100">
+                        <span class="text-3xl text-saffron-600 font-bold">ॐ</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-cinzel text-xl text-gray-900">Om Sabha Mission</span>
+                        <span class="text-xs text-gray-600">Transforming Lives Through Spiritual Awakening</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="/" class="text-gray-900 hover:text-saffron-500 transition">Home</a>
+                    <a href="/about.html" class="text-gray-900 hover:text-saffron-500 transition">About</a>
+                    <a href="/mission.html" class="text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                    <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                    <a href="/gallery.html" class="text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                    <a href="/contact.html" class="text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                    <button class="bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="lg:hidden text-gray-900">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-1">
+                <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Home</a>
+                <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">About</a>
+                <a href="./mission.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                <a href="/gallery.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                <a href="/contact.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                <button class="w-full mt-2 bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <h1 class="text-4xl font-cinzel text-gray-900 text-center mb-8">About Us</h1>
+        <div class="space-y-6 text-gray-700 leading-relaxed">
+            <p>In 2010, on a silent Mahashivratri night, Sri Divyananda lit a lamp of hope—Om Sabha Mission—to share the eternal truths of Sanatan Dharma. Years later, on Devsnan Purnima, 4th June 2023, guided by a mother’s love from Goddess Rajrajeswari Tripur Sundari, he built Om Mandir on the banks of the Ganga. This temple is no mere structure—it is a workshop for human souls. Here, the weak find courage, the lost find purpose, and the weary rediscover their eternal nature.</p>
+            <blockquote class="italic border-l-4 border-saffron-500 pl-4 text-gray-800">
+                “Temples are not shelters for the fearful; they are gymnasiums to build spiritual strength.”<br>– Sri Divyananda
+            </blockquote>
+            <p>Sri Divyananda’s teachings echo the Upanishadic call: <span class="font-bold">“Ātmano mokṣārthaṃ jagat hitāya ca”</span> (For one’s liberation and the welfare of the world). Our twin pillars—spiritual awakening and selfless service—guide every initiative at Om Sabha Mission.</p>
+        </div>
+    </section>
+    
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-cinzel text-gray-900 text-center mb-8">Our Philosophy</h2>
+            <p class="text-gray-700 leading-relaxed">The Mandukya Upanishad declares, "ॐ इत्येतदक्षरमिदं सर्वं"—Om is the eternal, imperishable vibration that underlies all creation. It is the bridge between the unmanifest (Avyakta) and the manifest (Vyakta), the resonance of Brahman itself. At Om Mandir, we begin every spiritual practice with the sacred chanting of Om, immersing ourselves in its cosmic rhythm to align with the oneness of all existence.</p>
+            <blockquote class="italic border-l-4 border-saffron-500 pl-4 text-gray-800 mt-4">
+                “Chanting Om is not merely a ritual; it is the awakening of the cosmic self within. When sound merges with silence, the seeker becomes the sought.”<br>– Sri Divyananda
+            </blockquote>
+            <p class="text-gray-700 mt-6">Through meditation retreats, seekers are guided toward Turiya, the fourth state of consciousness beyond waking, dreaming, and deep sleep. When the mind dissolves into Om, duality disappears, revealing the Self as pure, boundless awareness.</p>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                            <span class="text-2xl text-white">ॐ</span>
+                        </div>
+                        <span class="font-cinzel text-xl">Om Sabha Mission</span>
+                    </div>
+                    <p class="text-gray-400">Transforming Lives Through Spiritual Awakening</p>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="/about.html" class="block text-gray-400 hover:text-white transition">About Us</a>
+                        <a href="/programs.html" class="block text-gray-400 hover:text-white transition">Programs</a>
+                        <a href="/gallery.html" class="block text-gray-400 hover:text-white transition">Gallery</a>
+                        <a href="/contact.html" class="block text-gray-400 hover:text-white transition">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Connect</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Visit Us</h4>
+                    <address class="text-gray-400 not-italic">
+                        Om Mandir<br>
+                        Banks of Ganga<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <p class="text-center text-gray-400">© 2024 Om Sabha Mission. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

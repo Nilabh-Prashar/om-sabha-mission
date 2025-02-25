@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        saffron: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#ea580c',
+                            600: '#c2410c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- <header id="header"></header> -->
+        <!-- Navigation -->
+        <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo Area -->
+                    <a href="/" class="flex items-center space-x-3">
+                        <div class="w-16 h-16 bg-saffron-50 rounded-full flex items-center justify-center border-2 border-saffron-100">
+                            <span class="text-3xl text-saffron-600 font-bold">ॐ</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-cinzel text-xl text-gray-900">Om Sabha Mission</span>
+                            <span class="text-xs text-gray-600">Transforming Lives Through Spiritual Awakening</span>
+                        </div>
+                    </a>
+    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden lg:flex items-center space-x-8">
+                        <a href="/" class="text-gray-900 hover:text-saffron-500 transition">Home</a>
+                        <a href="/about.html" class="text-gray-900 hover:text-saffron-500 transition">About</a>
+                        <a href="/mission.html" class="text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                        <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                        <a href="/gallery.html" class="text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                        <a href="/contact.html" class="text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                        <button class="bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+                    </div>
+    
+                    <!-- Mobile Menu Button -->
+                    <button id="menuBtn" class="lg:hidden text-gray-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden lg:hidden bg-white border-t">
+                <div class="px-4 py-2 space-y-1">
+                    <a href="/" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Home</a>
+                    <a href="/about.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">About</a>
+                    <a href="/mission.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Mission</a>
+                    <a href="/programs.html" class="text-gray-900 hover:text-saffron-500 transition">Activities & Initiatives</a>
+                    <a href="/gallery.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Gallery</a>
+                    <a href="/contact.html" class="block py-2 text-gray-900 hover:text-saffron-500 transition">Contact</a>
+                    <button class="w-full mt-2 bg-saffron-500 text-white px-6 py-2 rounded-full hover:bg-saffron-600 transition">Donate</button>
+                </div>
+            </div>
+        </nav>
+    <main class="container mx-auto px-4 py-10">
+        <section class="text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Our Mission</h1>
+            <p class="mt-4 text-lg text-gray-600">
+                Our mission is to transcend these divisions and foster a world based on love, peace, and cooperation, honoring the Divine presence in all. This vision of unity extends beyond human relationships to encompass our spiritual philosophy, integrating both form and formless aspects of worship. Om represents the formless Brahman, while its manifestation in sacred practices allows us to engage with the Divine in multiple ways.
+            </p>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">Harmonizing the Yogic Paths: A Path to Spiritual and Mental Well-being</h2>
+            <p class="mt-4 text-lg text-gray-600">The journey toward realizing universal oneness is supported by four primary yogic paths described in the Bhagavad Gita, each offering a unique approach to spiritual growth:</p>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li><strong>Raja Yoga</strong> – Cultivating inner stillness and direct experience of the Divine.</li>
+                <li><strong>Karma Yoga</strong> – Selfless service and duty performed as an offering to the Divine.</li>
+                <li><strong>Jnana Yoga</strong> – Seeking truth through knowledge and self-inquiry.</li>
+                <li><strong>Bhakti Yoga</strong> – Devotional worship, chanting, and surrender to the Divine.</li>
+            </ul>
+            <p class="mt-4 text-gray-600">While we embrace all these yogic paths, Bhakti Yoga is central to our teachings, as it offers a simple yet profound method for modern well-being. Sri Divyananda observes: "Bhakti is the heart's journey from the transient to the eternal. In devotion, even breath becomes a prayer." Repeating the holy name, worshipping the Divine, and serving both devotees and the broader community cultivate inner peace and joy, relieving stress and leading to a blissful life.</p>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">Panch Devata Puja: Harmonizing Divine Forms</h2>
+            <p class="mt-4 text-lg text-gray-600">The Panch Devata tradition exemplifies how apparent differences in worship can be harmonized into a unified spiritual vision. By honoring five deities together—Shiva, Vishnu, Devi, Ganesha, and Surya—we demonstrate the essential unity underlying diverse forms of worship.</p>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li><strong>Shiva (Earth)</strong> – The Bana Linga from Narmada represents transformation and transcendence.</li>
+                <li><strong>Vishnu (Space)</strong> – The Saligrama from Gandaki symbolizes preservation and dharmic order.</li>
+                <li><strong>Devi Ambika (Fire)</strong> – The Swarna Mukhi stone embodies divine energy and empowerment.</li>
+                <li><strong>Ganesha (Water)</strong> – The Red Sonabhadra stone signifies wisdom and obstacle removal.</li>
+                <li><strong>Surya (Air)</strong> – The Vallam crystal represents illumination and vitality.</li>
+            </ul>
+            <p class="mt-4 text-gray-600">This integrated worship addresses a critical challenge in contemporary Hindu society—the tendency to create hierarchies or conflicts between different forms of worship. Sri Divyananda explains: "The many forms of the Divine are but mirrors reflecting the singular Truth. Worship becomes wisdom when we see the One in the many."</p>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">Preserving Sanatan Hindu Culture</h2>
+            <p class="mt-4 text-lg text-gray-600">In an age where globalization and modernization often lead to disconnection from our spiritual heritage, cultural preservation becomes increasingly critical. The preservation and revival of ancient Sanatan Hindu rituals, including the 16 Samskaras (sacraments), hold immense cultural, spiritual, and historical significance. Our approach involves meticulous study, deep contemplation, and practical application, aiming to reintegrate these traditions into modern life meaningfully.</p>
+            <p class="mt-4 text-gray-600">By honoring and practicing these age-old traditions, we seek to not only preserve our rich cultural heritage but also to imbibe their spiritual essence into our daily lives, fostering a deeper connection with our roots and a profound understanding of our spiritual identity.</p>
+        </section>
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">Service to Society: Building a Better World</h2>
+            <p class="mt-4 text-lg text-gray-600">In the face of modern challenges, where materialism and western influences often lead people away from their spiritual roots, we recognize our responsibility to serve society actively. Our service initiatives focus on:</p>
+            
+            <div class="mt-6">
+                <h3 class="text-2xl font-semibold text-gray-700">1. Education and Awareness</h3>
+                <ul class="list-disc list-inside mt-2 text-gray-600">
+                    <li>Providing authentic knowledge of Sanatan Dharma principles</li>
+                    <li>Organizing spiritual workshops and youth programs</li>
+                    <li>Conducting family counseling based on dharmic values</li>
+                    <li>Creating educational materials that bridge traditional wisdom with contemporary needs</li>
+                </ul>
+            </div>
+            
+            <div class="mt-6">
+                <h3 class="text-2xl font-semibold text-gray-700">2. Community Development</h3>
+                <ul class="list-disc list-inside mt-2 text-gray-600">
+                    <li>Supporting underprivileged sections of society through regular assistance programs</li>
+                    <li>Organizing health camps and educational assistance initiatives</li>
+                    <li>Promoting environmental consciousness through tree plantations and clean-up drives</li>
+                    <li>Creating sustainable support systems for vulnerable communities</li>
+                </ul>
+            </div>
+        
+            <div class="mt-6">
+                <h3 class="text-2xl font-semibold text-gray-700">3. Cultural Preservation</h3>
+                <ul class="list-disc list-inside mt-2 text-gray-600">
+                    <li>Protecting and promoting traditional arts and customs</li>
+                    <li>Organizing cultural festivals and events that showcase classical traditions</li>
+                    <li>Supporting local artisans and traditional craftspeople</li>
+                    <li>Documenting and preserving ancient practices and knowledge systems</li>
+                </ul>
+            </div>
+        
+            <div class="mt-6">
+                <h3 class="text-2xl font-semibold text-gray-700">4. Social Harmony</h3>
+                <ul class="list-disc list-inside mt-2 text-gray-600">
+                    <li>Conducting interfaith dialogues and cultural exchange programs</li>
+                    <li>Organizing community meals (bhandara) that bring people together</li>
+                    <li>Creating platforms for addressing social issues through spiritual wisdom</li>
+                    <li>Mediating conflicts through dharmic principles</li>
+                </ul>
+            </div>
+            
+            <p class="mt-6 text-gray-600 italic">As Sri Divyananda teaches: "Service to humanity is service to the Divine. When we serve others, we serve the same consciousness that dwells within us." This understanding transforms social service from mere charity to a sacred act of worship.</p>
+        </section>
+        
+        <section class="mt-10">
+            <h2 class="text-3xl font-semibold text-gray-800">A Unified Vision: The Om Mandir Mission</h2>
+            <p class="mt-4 text-lg text-gray-600">At Om Mandir, we strive to reestablish the harmony between diverse paths of Sanatan Dharma, offering seekers the freedom to choose their spiritual journey while embracing the underlying unity of all traditions. Sri Divyananda encapsulates this mission: "True harmony is when diverse paths dance to the rhythm of one Truth. Let your practice be a celebration of unity, not a debate of differences."</p>
+            
+            <p class="mt-4 text-gray-600">In today's challenging times, where society faces unprecedented moral and spiritual crises, Om Mandir stands as a beacon of hope and transformation. Through our integrated approach of spiritual practice, social service, and cultural preservation, we work towards creating a world where ancient wisdom guides modern progress, where service uplifts humanity, and where unity prevails over division.</p>
+            
+            <p class="mt-4 text-gray-600">Our practices—centered around Om, the Yogic paths, and Panch Devata Puja—reflect the realization that all forms of worship and practice lead to the same ultimate truth: the experience of the One Divine Reality that pervades all existence. By uniting form and formless worship, harmonizing the Yogic paths, and embracing universal oneness, we cultivate a spiritual atmosphere where love, wisdom, and devotion flourish together, creating a world where compassion and unity prevail.</p>
+            
+            <p class="mt-6 text-gray-600 font-semibold">Through this comprehensive vision and practical implementation, Om Mandir serves not just as a place of worship, but as a transformative force in society, working tirelessly for the spiritual elevation and social harmony of all beings.</p>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                            <span class="text-2xl text-white">ॐ</span>
+                        </div>
+                        <span class="font-cinzel text-xl">Om Sabha Mission</span>
+                    </div>
+                    <p class="text-gray-400">Transforming Lives Through Spiritual Awakening</p>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="/about.html" class="block text-gray-400 hover:text-white transition">About Us</a>
+                        <a href="/programs.html" class="block text-gray-400 hover:text-white transition">Programs</a>
+                        <a href="/gallery.html" class="block text-gray-400 hover:text-white transition">Gallery</a>
+                        <a href="/contact.html" class="block text-gray-400 hover:text-white transition">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Connect</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="#" class="block text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-cinzel text-lg mb-4">Visit Us</h4>
+                    <address class="text-gray-400 not-italic">
+                        Om Mandir<br>
+                        Banks of Ganga<br>
+                        <!-- Add complete address -->
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <p class="text-center text-gray-400">© 2024 Om Sabha Mission. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- <footer id="footer"></footer> -->
+    
+    <script>
+        fetch('../components/header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data)
+            .catch(error => console.error('Error loading header:', error));
+    
+        fetch('../components/footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data)
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
